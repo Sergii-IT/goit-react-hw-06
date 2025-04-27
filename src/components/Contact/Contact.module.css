@@ -7,11 +7,25 @@
   border-radius: 0.5rem;
 }
 
-.button {
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.deleteButton {
   padding: 0.3rem 0.6rem;
   background-color: #dc3545;
   color: white;
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;
 }
